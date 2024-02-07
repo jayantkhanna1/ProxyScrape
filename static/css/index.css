@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #0d1121 !important;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+.primary_text{
+    color: white;
+}
+#right a{
+    margin-right: 53px;
+    text-decoration: none;
+    font-size: 18px;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    flex-direction: column;
+}
+#bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+    margin-bottom: 70px;
+}
+#bottom div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 25px;
+}
+#top h2{
+    font-size: 40px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+.tirtiary_text{
+    color:rgba(54,60,89)
+}
+.secondary_text{
+    color: rgba(125,148,178)
+}
+#bottom div>p{
+    font-size: 22px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+#bottom div>span{
+    font-weight: 500;
+    font-size: 18px;
+}
+#table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+thead tr>th{
+    color: white;
+}
+tbody tr>td{
+    color: white;
+}
+.table{
+    width: 70%;
+}
+.table>tbody>tr>td{
+    border-top: none;
+}
+
+.table>thead>tr>th {
+    border-bottom: 2px solid rgba(38,43,66);;
+}
+
+th,tr{
+    text-align: center;
+}
+#scrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#scrapper button{
+    padding: 16px 54px;
+    color: white;
+    border: none;
+    outline: none;
+    background-color: #4d58b5;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    font-size: 18px;
+}
+#scrapper button:hover{
+    box-shadow: 1px 1px 30px 1px #000b69;
+}
