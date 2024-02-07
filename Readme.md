@@ -77,5 +77,4 @@ celery -A Proxy_scrape beat -l info
 # Data View
 
 You can simply see all scraped data after opening ip: 127.0.0.1:8000
-![Alt text](Readme_image/image-1.png)
-
+![Alt text](Readme_image/image_1.png)
