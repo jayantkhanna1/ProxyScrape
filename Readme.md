@@ -24,7 +24,7 @@ Django Proxy Scraper is a Django project that utilizes Celery to perform daily s
 1. Clone the repository.
 
 ```bash
-git clone https://github.com/ananya26-vishnoi/Proxy_scrape.git
+git clone https://github.com/jayantkhanna1/ProxyScrape
 ```
 2. Create a Virtual Enviornment
 
